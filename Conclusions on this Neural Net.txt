@@ -1,0 +1,13 @@
+Conclusions on this Neural Net: 
+
+The increase in the epoch and learning rate has a much larger effect on the time required for optimization than the number of layers.  
+Increasing the number of layers causes such a small increase in the time required to run the optimization that it’s effectively nil. 
+In short, with the increasing the epochs and learning rate, you are essentially paying the price of time for more accuracy. 
+
+
+When it comes to increasing the accuracy of the neural net, it looks like increasing the learning rate is key to improving performance.  
+Epochs have some influence over the accuracy, while the number of nodes has little effect on improving performance.
+In the future I’d like to increase both the learning rate and the nodes within the layer, providing an even more accurate model. 
+
+Note: I've increased the epochs and learning rate for this code (that's posted to GitHub) substantially from the original assignment.
+The Guthub version of this code takes about 5 minutes to run on my machine. (i7, two GPUs) 
